@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <title>BurgerDoor Cafe</title>
+
+    <style>
+      body {
+        background-image: url(assets/cover1.jpg);
+        font-family: "League Spartan", sans-serif;
+      }
+      .judul {
+        background-size: cover;
+        text-align: center;
+      }
+
+      .judul h1 {
+        margin-top: 50px;
+        font-size: 50px;
+        color: rgb(223, 181, 46);
+        text-align: center;
+      }
+      .judul h5 {
+        color: rgb(102, 60, 60);
+        font-size: 20px;
+        text-align: center;
+        padding-top: 70px;
+      }
+      .judul img {
+        width: 1000px;
+        height: 500px;
+        border: 20px solid rgba(182, 181, 181, 0.281);
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+      .judul p {
+        font-size: 30px;
+        color: rgb(243, 197, 72);
+        text-align: center;
+      }
+
+      .breakfast img {
+        width: 400px;
+        height: 250px;
+        padding: 10px;
+        opacity: 0.8;
+      }
+      .breakfast img:hover {
+        opacity: 1;
+        transition: 0.2s;
+        transform: scale(1.1);
+      }
+      .bg-break h3 {
+        font-size: 40px;
+
+        text-align: center;
+        color: rgb(104, 59, 3);
+        padding-top: 50px;
+      }
+      .breakfast h4 {
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        color: rgb(104, 59, 3);
+      }
+      .breakfast {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .bg-break {
+        background-color: rgba(220, 220, 220, 0.637);
+        border-radius: 10px;
+      }
+      .burg,
+      .coffee,
+      .break,
+      .tea {
+        text-align: center;
+        padding: 30px;
+      }
+      table {
+        width: 100%;
+        height: 500px;
+      }
+      td,
+      th {
+        border: 2px solid rgb(84, 82, 87);
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgba(34, 139, 30, 0.342);
+      }
+      td,
+      th {
+        color: whitesmoke;
+        font-size: 30px;
+      }
+      .table {
+        padding: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="judul">
+      <h1>BURGERDOOR CAFE <br />MENU</h1>
+      <h5>Since 1999</h5>
+      <img src="assets/cover2.jpg" alt="" />
+      <p>Hungry everyone? <br />Scroll It Now!</p>
+    </section>
+
+    <section class="break">
+      <div class="bg-break">
+        <h3>Breakfast</h3>
+
+        <div class="breakfast">
+          <div>
+            <img src="assets/breakfast1.jpg" alt="" />
+            <h4>Fruity Pretty Smothies</h4>
+          </div>
+          <div>
+            <img src="assets/breakfast2.jpg" alt="" />
+            <h4>Longlife Salads</h4>
+          </div>
+          <div>
+            <img src="assets/breakfast3.jpg" alt="" />
+            <h4>Full Almond Cookies</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="burg">
+      <div class="bg-break">
+        <h3>Burger</h3>
+
+        <div class="breakfast">
+          <div>
+            <img src="assets/burger1.jpg" alt="" />
+            <h4>Bikini Bottom Burger Set</h4>
+          </div>
+          <div>
+            <img src="assets/burger2.jpg" alt="" />
+            <h4>Tasty Rice Burger</h4>
+          </div>
+          <div>
+            <img src="assets/burger3.jpg" alt="" />
+            <h4>Simple Beef Burger</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="coffee">
+      <div class="bg-break">
+        <h3>Coffee</h3>
+
+        <div class="breakfast">
+          <div>
+            <img src="assets/coffee1.jpg" alt="" />
+            <h4>Cappucinno Everyday</h4>
+          </div>
+          <div>
+            <img src="assets/coffee2.jpg" alt="" />
+            <h4>Italian Coffee</h4>
+          </div>
+          <div>
+            <img src="assets/coffee3.jpg" alt="" />
+            <h4>Chocolate and Marshmallow Coffee</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tea">
+      <div class="bg-break">
+        <h3>Tea</h3>
+
+        <div class="breakfast">
+          <div>
+            <img src="assets/tea1.jpg" alt="" />
+            <h4>Classic Italian Tea</h4>
+          </div>
+          <div>
+            <img src="assets/tea2.jpg" alt="" />
+            <h4>Rosemary Tea</h4>
+          </div>
+          <div>
+            <img src="assets/tea3.jpg" alt="" />
+            <h4>Greentea or Rose Tea</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="table">
+        <table>
+          <tr>
+            <th>Opening Hours</th>
+            <th>Locations</th>
+            <th>Contacts</th>
+          </tr>
+          <tr>
+            <td rowspan="2">9 am until 10 pm</td>
+            <td rowspan="2">Jalan Bersama No 1, Denpasar</td>
+            <td>Phone: +62 878 6233 1621</td>
+          </tr>
+          <tr>
+            <td>Instagram:@burgerdoor</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
